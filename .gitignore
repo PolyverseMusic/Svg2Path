@@ -1,5 +1,3 @@
-./JuceLibraryCode
-.DS_Store
 
 Builds/MacOSX/Info-App.plist
 Builds/MacOSX/RecentFilesMenuTemplate.nib

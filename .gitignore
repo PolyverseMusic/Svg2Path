@@ -19,3 +19,5 @@ Builds/MacOSX/build/Debug/Svg2Path.app/Contents/PkgInfo
 Builds/MacOSX/build/Debug/Svg2Path.app/Contents/MacOS/Svg2Path
 Builds/MacOSX/build/Debug/Svg2Path.app/Contents/Info.plist
 Builds/MacOSX/build/Debug/Svg2Path.app/Contents/_CodeSignature/CodeResources
+Builds/MacOSX/build/Release/Svg2Path.app/Contents/_CodeSignature/CodeResources
+Builds/MacOSX/build/Release/Svg2Path.app/Contents/MacOS/Svg2Path

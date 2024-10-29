@@ -1,0 +1,21 @@
+
+Builds/MacOSX/Info-App.plist
+Builds/MacOSX/RecentFilesMenuTemplate.nib
+Builds/MacOSX/Svg2Path.xcodeproj/project.pbxproj
+Builds/MacOSX/Svg2Path.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+Builds/MacOSX/Svg2Path.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+Builds/MacOSX/Svg2Path.xcodeproj/project.xcworkspace/xcuserdata/assafdarsagol.xcuserdatad/UserInterfaceState.xcuserstate
+Builds/MacOSX/Svg2Path.xcodeproj/xcuserdata/assafdarsagol.xcuserdatad/xcschemes/xcschememanagement.plist
+Builds/VisualStudio2022/resources.rc
+Builds/VisualStudio2022/Svg2Path.sln
+Builds/VisualStudio2022/Svg2Path_App.vcxproj
+Builds/VisualStudio2022/Svg2Path_App.vcxproj.filters
+Builds/MacOSX/Svg2Path.xcodeproj/xcshareddata/xcschemes/Svg2Path - App.xcscheme
+Builds/MacOSX/build/Release/Svg2Path.app/Contents/Resources/RecentFilesMenuTemplate.nib
+Builds/MacOSX/build/Release/Svg2Path.app/Contents/PkgInfo
+Builds/MacOSX/build/Release/Svg2Path.app/Contents/Info.plist
+Builds/MacOSX/build/Debug/Svg2Path.app/Contents/Resources/RecentFilesMenuTemplate.nib
+Builds/MacOSX/build/Debug/Svg2Path.app/Contents/PkgInfo
+Builds/MacOSX/build/Debug/Svg2Path.app/Contents/MacOS/Svg2Path
+Builds/MacOSX/build/Debug/Svg2Path.app/Contents/Info.plist
+Builds/MacOSX/build/Debug/Svg2Path.app/Contents/_CodeSignature/CodeResources

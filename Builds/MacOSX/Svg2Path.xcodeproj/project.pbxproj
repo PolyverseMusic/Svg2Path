@@ -48,9 +48,9 @@
 		9F2E258A74827E8E3603D292 /* juce_gui_extra */ /* juce_gui_extra */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_extra; path = "/Users/assafdarsagol/CPP/Libs/JUCE 7/modules/juce_gui_extra"; sourceTree = "<absolute>"; };
 		A4240C0BC11A4D4C4D4D42E8 /* juce_data_structures */ /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = "/Users/assafdarsagol/CPP/Libs/JUCE 7/modules/juce_data_structures"; sourceTree = "<absolute>"; };
 		AAA2C14EF49633FD7AEF3DD1 /* QuartzCore.framework */ /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		ACBB29BF05BE07D2D91496D2 /* juce_build_tools */ /* juce_build_tools */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_build_tools; path = "../../../../../../JUCE 7/extras/Build/juce_build_tools"; sourceTree = SOURCE_ROOT; };
 		AE0A52F1FF7982BBD3575873 /* WebKit.framework */ /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		AE620D9C8D8D5C9F91BA39D4 /* IOKit.framework */ /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		AE910A7F62C8993ABFF92513 /* juce_build_tools */ /* juce_build_tools */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_build_tools; path = ../../JuceLibraryCode/modules/juce_build_tools; sourceTree = SOURCE_ROOT; };
 		B622311ED6A2DDF87F82FA47 /* include_juce_gui_extra.mm */ /* include_juce_gui_extra.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_extra.mm; path = ../../JuceLibraryCode/include_juce_gui_extra.mm; sourceTree = SOURCE_ROOT; };
 		B793D053347B85DC780BD780 /* include_juce_core.mm */ /* include_juce_core.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_core.mm; path = ../../JuceLibraryCode/include_juce_core.mm; sourceTree = SOURCE_ROOT; };
 		BADA201C1079C469D43D1C56 /* RecentFilesMenuTemplate.nib */ /* RecentFilesMenuTemplate.nib */ = {isa = PBXFileReference; lastKnownFileType = file.nib; name = RecentFilesMenuTemplate.nib; path = RecentFilesMenuTemplate.nib; sourceTree = SOURCE_ROOT; };
@@ -165,7 +165,7 @@
 		CC3BAD2DEACBCE82B7275C63 /* JUCE Modules */ = {
 			isa = PBXGroup;
 			children = (
-				ACBB29BF05BE07D2D91496D2,
+				AE910A7F62C8993ABFF92513,
 				62A7DC5786299701CC6BD9C7,
 				A4240C0BC11A4D4C4D4D42E8,
 				C984D6657AEFFAD6EFB71CDB,
@@ -321,7 +321,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"\"$(SRCROOT)/../../../../../../JUCE 7/extras/Build\"",
+					"$(SRCROOT)/../../JuceLibraryCode/modules",
 					"\"/Users/assafdarsagol/CPP/Libs/JUCE 7/modules\"",
 					"$(inherited)",
 				);
@@ -330,7 +330,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode \"$(SRCROOT)/../../../../../../JUCE 7/extras/Build\" \"/Users/assafdarsagol/CPP/Libs/JUCE 7/modules\"";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../JuceLibraryCode/modules \"/Users/assafdarsagol/CPP/Libs/JUCE 7/modules\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Svg2Path;
 				PRODUCT_NAME = "Svg2Path";
 				USE_HEADERMAP = NO;
@@ -429,7 +429,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"\"$(SRCROOT)/../../../../../../JUCE 7/extras/Build\"",
+					"$(SRCROOT)/../../JuceLibraryCode/modules",
 					"\"/Users/assafdarsagol/CPP/Libs/JUCE 7/modules\"",
 					"$(inherited)",
 				);
@@ -437,7 +437,7 @@
 				INFOPLIST_PREPROCESS = NO;
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode \"$(SRCROOT)/../../../../../../JUCE 7/extras/Build\" \"/Users/assafdarsagol/CPP/Libs/JUCE 7/modules\"";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../JuceLibraryCode/modules \"/Users/assafdarsagol/CPP/Libs/JUCE 7/modules\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Svg2Path;
 				PRODUCT_NAME = "Svg2Path";
 				USE_HEADERMAP = NO;
